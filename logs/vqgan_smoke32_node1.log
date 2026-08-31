@@ -1,0 +1,136 @@
+================================================================================
+DLC topology: node_rank=1/4, local_gpus=8, total_gpus=32
+hostname=dlc5q4i6i36liuzt-worker-0
+Datasets:
+  mecka_bimanual_front_1: /mnt/data/RLDS/EgoVerse_full/mecka_bimanual_front_1/ego_verse_infidata/1.0.0
+================================================================================
+Local visible GPU tokens: ['0', '1', '2', '3', '4', '5', '6', '7']
+2026-08-24 12:47:27.790346: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: At2026-08-24 12:47:27.790343: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: At2026-08-24 12:47:27.790345: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: At2026-08-24 12:47:27.790341: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: At2026-08-24 12:47:27.790343: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-08-24 12:47:27.790343: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+tempting to register factory for plugin cuDNN when one has already been registered
+tempting to register factory for plugin cuDNN when one has already been registered
+tempting to register factory for plugin cuDNN when one has already been registered
+tempting to register factory for plugin cuDNN when one has already been registered
+2026-08-24 12:47:27.790379: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Att2026-08-24 12:47:27.790379: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Att2026-08-24 12:47:27.790380: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Att2026-08-24 12:47:27.790380: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Att2026-08-24 12:47:27.790379: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+empting to register factory for plugin cuFFT when one has already been registered
+empting to register factory for plugin cuFFT when one has already been registered
+empting to register factory for plugin cuFFT when one has already been registered
+empting to register factory for plugin cuFFT when one has already been registered
+2026-08-24 12:47:27.790396: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-08-24 12:47:27.790557: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-08-24 12:47:27.790577: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-08-24 12:47:27.791858: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-08-24 12:47:27.791878: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-08-24 12:47:27.802146: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-08-24 12:47:27.802155: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-08-24 12:47:27.802161: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: 2026-08-24 12:47:27.802161: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-08-24 12:47:27.802162: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-08-24 12:47:27.802164: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-08-24 12:47:27.802163: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-08-24 12:47:27.802166: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud._storage_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud._storage_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud._storage_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud._storage_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud._storage_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud._storage_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud.storage_control_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud.storage_control_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud.storage_control_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud.storage_control_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud.storage_control_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud.storage_control_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud._storage_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud._storage_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud.storage_control_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud.storage_control_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud._storage_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud._storage_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud.storage_control_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud.storage_control_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud._storage_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud._storage_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud.storage_control_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud.storage_control_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[node 1 local 7 global 15] device_token=7 jax_devices=[cuda(id=0)]
+[node 1 local 0 global 08] device_token=0 jax_devices=[cuda(id=0)]
+[node 1 local 6 global 14] device_token=6 jax_devices=[cuda(id=0)]
+[node 1 local 3 global 11] device_token=3 jax_devices=[cuda(id=0)]
+[node 1 local 2 global 10] device_token=2 jax_devices=[cuda(id=0)]
+[node 1 local 4 global 12] device_token=4 jax_devices=[cuda(id=0)]
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud._storage_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud._storage_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud.storage_control_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud.storage_control_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[node 1 local 1 global 09] device_token=1 jax_devices=[cuda(id=0)]
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud._storage_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud._storage_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud.storage_control_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud.storage_control_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[node 1 local 5 global 13] device_token=5 jax_devices=[cuda(id=0)]
+[global 14] VQGAN loaded in 4.95s
+[global 12] VQGAN loaded in 4.72s
+[global 09] VQGAN loaded in 3.65s
+[global 10] VQGAN loaded in 4.84s
+[global 11] VQGAN loaded in 4.97s
+[global 08] VQGAN loaded in 5.08s
+[global 13] VQGAN loaded in 2.61s
+[global 15] VQGAN loaded in 5.14s
+[global 09] mecka_bimanual_front_1: total=39530 assigned=[11117,12353) existing=0 pending_ranges=1
+[global 11] mecka_bimanual_front_1: total=39530 assigned=[13588,14823) existing=0 pending_ranges=1
+[global 12] mecka_bimanual_front_1: total=39530 assigned=[14823,16059) existing=0 pending_ranges=1
+[global 10] mecka_bimanual_front_1: total=39530 assigned=[12353,13588) existing=0 pending_ranges=1
+[global 08] mecka_bimanual_front_1: total=39530 assigned=[9882,11117) existing=0 pending_ranges=1
+[global 14] mecka_bimanual_front_1: total=39530 assigned=[17294,18529) existing=0 pending_ranges=1
+[global 13] mecka_bimanual_front_1: total=39530 assigned=[16059,17294) existing=0 pending_ranges=1
+[global 15] mecka_bimanual_front_1: total=39530 assigned=[18529,19765) existing=0 pending_ranges=1
+[global 14] DONE mecka_bimanual_front_1 ep=17294 frames=106 sec=17.13 fps=6.2
+[global 11] DONE mecka_bimanual_front_1 ep=13588 frames=2149 sec=22.01 fps=97.6
+[global 08] DONE mecka_bimanual_front_1 ep=9882 frames=2699 sec=36.12 fps=74.7
+[global 10] DONE mecka_bimanual_front_1 ep=12353 frames=2380 sec=26.77 fps=88.9
+[global 12] DONE mecka_bimanual_front_1 ep=14823 frames=2485 sec=23.58 fps=105.4
+[global 13] DONE mecka_bimanual_front_1 ep=16059 frames=2699 sec=27.66 fps=97.6
+[global 15] DONE mecka_bimanual_front_1 ep=18529 frames=2683 sec=24.13 fps=111.2
+[global 09] DONE mecka_bimanual_front_1 ep=11117 frames=3073 sec=25.25 fps=121.7
+[global 08] COMPLETE {"node_rank": 1, "local_rank": 0, "global_rank": 8, "device_token": "0", "episodes_written": 1, "episodes_skipped": 0, "frames_written": 2699, "elapsed_sec": 822.173923385, "frames_per_sec": 3.2827604029179813}
+[global 11] COMPLETE {"node_rank": 1, "local_rank": 3, "global_rank": 11, "device_token": "3", "episodes_written": 1, "episodes_skipped": 0, "frames_written": 2149, "elapsed_sec": 822.539810163, "frames_per_sec": 2.612639502000687}
+[global 15] COMPLETE {"node_rank": 1, "local_rank": 7, "global_rank": 15, "device_token": "7", "episodes_written": 1, "episodes_skipped": 0, "frames_written": 2683, "elapsed_sec": 823.112415597, "frames_per_sec": 3.2595790674036076}
+[global 12] COMPLETE {"node_rank": 1, "local_rank": 4, "global_rank": 12, "device_token": "4", "episodes_written": 1, "episodes_skipped": 0, "frames_written": 2485, "elapsed_sec": 823.538267509, "frames_per_sec": 3.0174675519530036}
+[global 14] COMPLETE {"node_rank": 1, "local_rank": 6, "global_rank": 14, "device_token": "6", "episodes_written": 1, "episodes_skipped": 0, "frames_written": 106, "elapsed_sec": 823.605729827, "frames_per_sec": 0.1287023586179585}
+[global 10] COMPLETE {"node_rank": 1, "local_rank": 2, "global_rank": 10, "device_token": "2", "episodes_written": 1, "episodes_skipped": 0, "frames_written": 2380, "elapsed_sec": 823.724931877, "frames_per_sec": 2.8893140269249318}
+[global 09] COMPLETE {"node_rank": 1, "local_rank": 1, "global_rank": 9, "device_token": "1", "episodes_written": 1, "episodes_skipped": 0, "frames_written": 3073, "elapsed_sec": 823.764612383, "frames_per_sec": 3.7304345850817437}
+[global 13] COMPLETE {"node_rank": 1, "local_rank": 5, "global_rank": 13, "device_token": "5", "episodes_written": 1, "episodes_skipped": 0, "frames_written": 2699, "elapsed_sec": 823.734457182, "frames_per_sec": 3.276541337402946}
+[node 1] local 8-GPU work COMPLETE; wrote /mnt/data/laixianxin/LAPA/data/egoverse_vqgan_tokens_smoke32/node_01.done.json

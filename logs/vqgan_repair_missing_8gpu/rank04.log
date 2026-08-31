@@ -1,0 +1,250 @@
+2026-08-25 17:16:21.757866: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-08-25 17:16:21.757897: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-08-25 17:16:21.772270: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud._storage_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud._storage_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/google/api_core/_python_version_support.py:254: FutureWarning: You are using a Python version (3.10.20) which Google will stop supporting in new releases of google.cloud.storage_control_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud.storage_control_v2 past that date.
+  warnings.warn(message, FutureWarning)
+/root/miniconda3/envs/lapa/lib/python3.10/site-packages/wandb/sdk/launch/builder/build.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+====================================================================================================
+EgoVerse VQGAN missing-episode repair
+JAX devices = [cuda(id=0)]
+====================================================================================================
+target episodes = 413
+target frames   = 771,485
+aria_bimanual_front_1                                   episodes=    6 frames=21,189
+eva_bimanual_front_1_left_wrist_right_wrist             episodes=   22 frames=26,758
+human_bimanual_front_1                                  episodes=    7 frames=31,051
+mecka_bimanual_front_1                                  episodes=  223 frames=447,019
+scale_front_1                                           episodes=  155 frames=245,468
+WARNING: target episode count is not 3303. Continuing because manifest is authoritative.
+
+Loading VQGAN ...
+VQGAN loaded in 3.65s
+
+====================================================================================================
+aria_bimanual_front_1: targets=6 already_repaired=6 pending=0
+====================================================================================================
+
+====================================================================================================
+eva_bimanual_front_1_left_wrist_right_wrist: targets=22 already_repaired=22 pending=0
+====================================================================================================
+
+====================================================================================================
+human_bimanual_front_1: targets=7 already_repaired=7 pending=0
+====================================================================================================
+
+====================================================================================================
+mecka_bimanual_front_1: targets=223 already_repaired=196 pending=27
+====================================================================================================
+mecka_bimanual_front_1: TFDS read chunks=1
+[mecka_bimanual_front_1] chunk 1/1 episodes=27
+DONE mecka_bimanual_front_1 ordinal=38494 frames=2833 sec=13.47 fps=210.3 | repair 232/413 | ETA~6.58h
+DONE mecka_bimanual_front_1 ordinal=38548 frames=3583 sec=15.22 fps=235.4 | repair 233/413 | ETA~3.40h
+DONE mecka_bimanual_front_1 ordinal=38557 frames=2683 sec=10.97 fps=244.5 | repair 234/413 | ETA~2.64h
+DONE mecka_bimanual_front_1 ordinal=38558 frames=96 sec=0.66 fps=144.5 | repair 235/413 | ETA~2.63h
+DONE mecka_bimanual_front_1 ordinal=38630 frames=2129 sec=9.44 fps=225.5 | repair 236/413 | ETA~2.30h
+DONE mecka_bimanual_front_1 ordinal=38645 frames=3580 sec=14.72 fps=243.2 | repair 237/413 | ETA~1.95h
+DONE mecka_bimanual_front_1 ordinal=38654 frames=2695 sec=10.68 fps=252.3 | repair 238/413 | ETA~1.77h
+DONE mecka_bimanual_front_1 ordinal=38660 frames=3133 sec=12.21 fps=256.5 | repair 239/413 | ETA~1.62h
+DONE mecka_bimanual_front_1 ordinal=38666 frames=2686 sec=10.48 fps=256.3 | repair 240/413 | ETA~1.52h
+DONE mecka_bimanual_front_1 ordinal=38759 frames=2635 sec=10.48 fps=251.5 | repair 241/413 | ETA~1.45h
+DONE mecka_bimanual_front_1 ordinal=38762 frames=1858 sec=7.57 fps=245.3 | repair 242/413 | ETA~1.40h
+DONE mecka_bimanual_front_1 ordinal=38785 frames=2983 sec=11.84 fps=251.9 | repair 243/413 | ETA~1.34h
+DONE mecka_bimanual_front_1 ordinal=38879 frames=2980 sec=11.67 fps=255.3 | repair 244/413 | ETA~1.29h
+DONE mecka_bimanual_front_1 ordinal=38896 frames=2270 sec=8.85 fps=256.4 | repair 245/413 | ETA~1.26h
+DONE mecka_bimanual_front_1 ordinal=39021 frames=2095 sec=8.28 fps=253.1 | repair 246/413 | ETA~1.23h
+DONE mecka_bimanual_front_1 ordinal=39057 frames=2233 sec=8.78 fps=254.3 | repair 247/413 | ETA~1.20h
+DONE mecka_bimanual_front_1 ordinal=39083 frames=2965 sec=11.74 fps=252.6 | repair 248/413 | ETA~1.17h
+DONE mecka_bimanual_front_1 ordinal=39127 frames=1889 sec=7.35 fps=256.8 | repair 249/413 | ETA~1.15h
+DONE mecka_bimanual_front_1 ordinal=39137 frames=2683 sec=10.75 fps=249.5 | repair 250/413 | ETA~1.13h
+DONE mecka_bimanual_front_1 ordinal=39165 frames=2515 sec=9.87 fps=254.7 | repair 251/413 | ETA~1.11h
+DONE mecka_bimanual_front_1 ordinal=39211 frames=1930 sec=8.07 fps=239.1 | repair 252/413 | ETA~1.09h
+DONE mecka_bimanual_front_1 ordinal=39233 frames=2986 sec=12.88 fps=231.8 | repair 253/413 | ETA~1.08h
+DONE mecka_bimanual_front_1 ordinal=39307 frames=2558 sec=10.50 fps=243.6 | repair 254/413 | ETA~1.06h
+DONE mecka_bimanual_front_1 ordinal=39389 frames=3280 sec=13.36 fps=245.4 | repair 255/413 | ETA~1.04h
+DONE mecka_bimanual_front_1 ordinal=39390 frames=2983 sec=12.18 fps=244.9 | repair 256/413 | ETA~1.03h
+DONE mecka_bimanual_front_1 ordinal=39455 frames=3586 sec=14.75 fps=243.0 | repair 257/413 | ETA~1.01h
+DONE mecka_bimanual_front_1 ordinal=39472 frames=2395 sec=9.11 fps=262.8 | repair 258/413 | ETA~1.00h
+
+====================================================================================================
+scale_front_1: targets=155 already_repaired=0 pending=155
+====================================================================================================
+scale_front_1: TFDS read chunks=2
+[scale_front_1] chunk 1/2 episodes=128
+DONE scale_front_1 ordinal=4140 frames=317 sec=2.67 fps=118.7 | repair 259/413 | ETA~1.04h
+DONE scale_front_1 ordinal=4699 frames=2484 sec=12.08 fps=205.6 | repair 260/413 | ETA~1.05h
+DONE scale_front_1 ordinal=4791 frames=977 sec=4.70 fps=207.8 | repair 261/413 | ETA~1.05h
+DONE scale_front_1 ordinal=4852 frames=2160 sec=9.36 fps=230.9 | repair 262/413 | ETA~1.04h
+DONE scale_front_1 ordinal=5049 frames=459 sec=2.71 fps=169.3 | repair 263/413 | ETA~1.04h
+DONE scale_front_1 ordinal=5069 frames=234 sec=1.60 fps=145.9 | repair 264/413 | ETA~1.04h
+DONE scale_front_1 ordinal=5081 frames=1665 sec=7.45 fps=223.4 | repair 265/413 | ETA~1.04h
+DONE scale_front_1 ordinal=5092 frames=706 sec=3.34 fps=211.4 | repair 266/413 | ETA~1.03h
+DONE scale_front_1 ordinal=5103 frames=937 sec=4.00 fps=234.5 | repair 267/413 | ETA~1.03h
+DONE scale_front_1 ordinal=5191 frames=3324 sec=17.66 fps=188.2 | repair 268/413 | ETA~1.02h
+DONE scale_front_1 ordinal=5275 frames=287 sec=1.23 fps=232.8 | repair 269/413 | ETA~1.02h
+DONE scale_front_1 ordinal=5313 frames=1080 sec=4.51 fps=239.7 | repair 270/413 | ETA~1.02h
+DONE scale_front_1 ordinal=5368 frames=6598 sec=26.88 fps=245.5 | repair 271/413 | ETA~0.99h
+DONE scale_front_1 ordinal=5401 frames=260 sec=1.22 fps=213.0 | repair 272/413 | ETA~0.99h
+DONE scale_front_1 ordinal=5431 frames=789 sec=3.49 fps=226.0 | repair 273/413 | ETA~0.99h
+DONE scale_front_1 ordinal=5432 frames=454 sec=1.94 fps=234.0 | repair 274/413 | ETA~0.99h
+DONE scale_front_1 ordinal=5476 frames=653 sec=2.80 fps=233.1 | repair 275/413 | ETA~0.98h
+DONE scale_front_1 ordinal=5509 frames=8927 sec=36.55 fps=244.2 | repair 276/413 | ETA~0.95h
+DONE scale_front_1 ordinal=5554 frames=383 sec=1.63 fps=235.0 | repair 277/413 | ETA~0.95h
+DONE scale_front_1 ordinal=5628 frames=3128 sec=13.06 fps=239.5 | repair 278/413 | ETA~0.94h
+DONE scale_front_1 ordinal=5673 frames=880 sec=3.68 fps=239.3 | repair 279/413 | ETA~0.94h
+DONE scale_front_1 ordinal=5804 frames=1659 sec=6.87 fps=241.6 | repair 280/413 | ETA~0.93h
+DONE scale_front_1 ordinal=5861 frames=2126 sec=8.76 fps=242.8 | repair 281/413 | ETA~0.93h
+DONE scale_front_1 ordinal=5880 frames=548 sec=3.02 fps=181.2 | repair 282/413 | ETA~0.93h
+DONE scale_front_1 ordinal=5974 frames=479 sec=3.09 fps=155.1 | repair 283/413 | ETA~0.93h
+DONE scale_front_1 ordinal=5988 frames=4721 sec=19.97 fps=236.5 | repair 284/413 | ETA~0.92h
+DONE scale_front_1 ordinal=6007 frames=899 sec=4.18 fps=215.3 | repair 285/413 | ETA~0.91h
+DONE scale_front_1 ordinal=6017 frames=514 sec=2.41 fps=213.1 | repair 286/413 | ETA~0.91h
+DONE scale_front_1 ordinal=6430 frames=3716 sec=15.48 fps=240.1 | repair 287/413 | ETA~0.90h
+DONE scale_front_1 ordinal=6802 frames=826 sec=3.59 fps=230.0 | repair 288/413 | ETA~0.90h
+DONE scale_front_1 ordinal=6890 frames=820 sec=3.36 fps=244.1 | repair 289/413 | ETA~0.90h
+DONE scale_front_1 ordinal=7066 frames=706 sec=3.01 fps=234.9 | repair 290/413 | ETA~0.90h
+DONE scale_front_1 ordinal=7083 frames=191 sec=0.84 fps=226.7 | repair 291/413 | ETA~0.90h
+DONE scale_front_1 ordinal=7363 frames=524 sec=2.25 fps=233.2 | repair 292/413 | ETA~0.90h
+DONE scale_front_1 ordinal=7375 frames=318 sec=1.36 fps=234.1 | repair 293/413 | ETA~0.89h
+DONE scale_front_1 ordinal=7428 frames=1593 sec=6.54 fps=243.7 | repair 294/413 | ETA~0.89h
+DONE scale_front_1 ordinal=7513 frames=2526 sec=10.64 fps=237.4 | repair 295/413 | ETA~0.88h
+DONE scale_front_1 ordinal=7517 frames=1712 sec=7.05 fps=242.7 | repair 296/413 | ETA~0.88h
+DONE scale_front_1 ordinal=7535 frames=1024 sec=4.12 fps=248.6 | repair 297/413 | ETA~0.88h
+DONE scale_front_1 ordinal=7607 frames=382 sec=1.72 fps=221.9 | repair 298/413 | ETA~0.88h
+DONE scale_front_1 ordinal=7614 frames=1224 sec=5.28 fps=231.7 | repair 299/413 | ETA~0.87h
+DONE scale_front_1 ordinal=7651 frames=1389 sec=5.73 fps=242.3 | repair 300/413 | ETA~0.87h
+DONE scale_front_1 ordinal=7672 frames=913 sec=3.77 fps=241.9 | repair 301/413 | ETA~0.87h
+DONE scale_front_1 ordinal=7735 frames=408 sec=1.97 fps=207.1 | repair 302/413 | ETA~0.87h
+DONE scale_front_1 ordinal=7833 frames=1166 sec=4.97 fps=234.4 | repair 303/413 | ETA~0.87h
+DONE scale_front_1 ordinal=7837 frames=501 sec=2.13 fps=234.9 | repair 304/413 | ETA~0.86h
+DONE scale_front_1 ordinal=7843 frames=12617 sec=50.95 fps=247.6 | repair 305/413 | ETA~0.83h
+DONE scale_front_1 ordinal=7872 frames=494 sec=2.12 fps=232.9 | repair 306/413 | ETA~0.83h
+DONE scale_front_1 ordinal=7927 frames=2417 sec=9.86 fps=245.2 | repair 307/413 | ETA~0.83h
+DONE scale_front_1 ordinal=7937 frames=226 sec=1.02 fps=221.2 | repair 308/413 | ETA~0.83h
+DONE scale_front_1 ordinal=7989 frames=540 sec=2.27 fps=237.8 | repair 309/413 | ETA~0.83h
+DONE scale_front_1 ordinal=8017 frames=2086 sec=8.58 fps=243.1 | repair 310/413 | ETA~0.82h
+DONE scale_front_1 ordinal=8094 frames=17626 sec=70.71 fps=249.3 | repair 311/413 | ETA~0.79h
+DONE scale_front_1 ordinal=8696 frames=280 sec=1.23 fps=227.2 | repair 312/413 | ETA~0.78h
+DONE scale_front_1 ordinal=8721 frames=155 sec=0.75 fps=207.7 | repair 313/413 | ETA~0.78h
+DONE scale_front_1 ordinal=8937 frames=470 sec=2.04 fps=229.8 | repair 314/413 | ETA~0.78h
+DONE scale_front_1 ordinal=9117 frames=241 sec=1.04 fps=231.8 | repair 315/413 | ETA~0.78h
+DONE scale_front_1 ordinal=9177 frames=370 sec=1.58 fps=234.0 | repair 316/413 | ETA~0.78h
+DONE scale_front_1 ordinal=9265 frames=305 sec=1.30 fps=235.3 | repair 317/413 | ETA~0.78h
+DONE scale_front_1 ordinal=9279 frames=686 sec=2.88 fps=238.6 | repair 318/413 | ETA~0.78h
+DONE scale_front_1 ordinal=9365 frames=435 sec=1.85 fps=235.1 | repair 319/413 | ETA~0.78h
+DONE scale_front_1 ordinal=9386 frames=199 sec=0.98 fps=203.1 | repair 320/413 | ETA~0.78h
+DONE scale_front_1 ordinal=9449 frames=1096 sec=4.54 fps=241.4 | repair 321/413 | ETA~0.78h
+DONE scale_front_1 ordinal=9487 frames=742 sec=3.13 fps=237.3 | repair 322/413 | ETA~0.78h
+DONE scale_front_1 ordinal=9501 frames=911 sec=3.88 fps=234.6 | repair 323/413 | ETA~0.78h
+DONE scale_front_1 ordinal=9571 frames=1322 sec=5.47 fps=241.9 | repair 324/413 | ETA~0.77h
+DONE scale_front_1 ordinal=9642 frames=1063 sec=4.65 fps=228.5 | repair 325/413 | ETA~0.77h
+DONE scale_front_1 ordinal=9698 frames=1213 sec=5.16 fps=235.0 | repair 326/413 | ETA~0.77h
+DONE scale_front_1 ordinal=9720 frames=364 sec=1.63 fps=223.6 | repair 327/413 | ETA~0.77h
+DONE scale_front_1 ordinal=9849 frames=1434 sec=5.83 fps=245.8 | repair 328/413 | ETA~0.77h
+DONE scale_front_1 ordinal=9880 frames=668 sec=2.87 fps=232.7 | repair 329/413 | ETA~0.76h
+DONE scale_front_1 ordinal=9931 frames=482 sec=2.08 fps=231.6 | repair 330/413 | ETA~0.76h
+DONE scale_front_1 ordinal=9965 frames=796 sec=3.33 fps=238.8 | repair 331/413 | ETA~0.76h
+DONE scale_front_1 ordinal=10007 frames=3783 sec=14.02 fps=269.8 | repair 332/413 | ETA~0.75h
+DONE scale_front_1 ordinal=10039 frames=8348 sec=33.75 fps=247.3 | repair 333/413 | ETA~0.74h
+DONE scale_front_1 ordinal=10078 frames=345 sec=1.50 fps=229.4 | repair 334/413 | ETA~0.74h
+DONE scale_front_1 ordinal=10120 frames=229 sec=1.01 fps=225.9 | repair 335/413 | ETA~0.74h
+DONE scale_front_1 ordinal=10125 frames=1375 sec=5.66 fps=242.9 | repair 336/413 | ETA~0.74h
+DONE scale_front_1 ordinal=10447 frames=873 sec=3.60 fps=242.7 | repair 337/413 | ETA~0.73h
+DONE scale_front_1 ordinal=10641 frames=999 sec=4.10 fps=243.5 | repair 338/413 | ETA~0.73h
+DONE scale_front_1 ordinal=10665 frames=646 sec=2.82 fps=229.2 | repair 339/413 | ETA~0.73h
+DONE scale_front_1 ordinal=10680 frames=5080 sec=20.54 fps=247.3 | repair 340/413 | ETA~0.72h
+DONE scale_front_1 ordinal=10748 frames=271 sec=1.21 fps=223.4 | repair 341/413 | ETA~0.72h
+DONE scale_front_1 ordinal=11248 frames=512 sec=2.11 fps=242.2 | repair 342/413 | ETA~0.72h
+DONE scale_front_1 ordinal=11268 frames=2159 sec=8.85 fps=244.1 | repair 343/413 | ETA~0.72h
+DONE scale_front_1 ordinal=11364 frames=356 sec=1.55 fps=229.6 | repair 344/413 | ETA~0.72h
+DONE scale_front_1 ordinal=11432 frames=1499 sec=6.14 fps=244.0 | repair 345/413 | ETA~0.72h
+DONE scale_front_1 ordinal=11498 frames=753 sec=3.13 fps=240.3 | repair 346/413 | ETA~0.71h
+DONE scale_front_1 ordinal=11610 frames=534 sec=2.30 fps=232.5 | repair 347/413 | ETA~0.71h
+DONE scale_front_1 ordinal=11627 frames=246 sec=1.05 fps=233.9 | repair 348/413 | ETA~0.71h
+DONE scale_front_1 ordinal=11629 frames=856 sec=3.58 fps=239.0 | repair 349/413 | ETA~0.71h
+DONE scale_front_1 ordinal=11709 frames=1256 sec=5.14 fps=244.5 | repair 350/413 | ETA~0.71h
+DONE scale_front_1 ordinal=11760 frames=4312 sec=17.64 fps=244.5 | repair 351/413 | ETA~0.70h
+DONE scale_front_1 ordinal=11793 frames=5772 sec=23.55 fps=245.1 | repair 352/413 | ETA~0.69h
+DONE scale_front_1 ordinal=11800 frames=198 sec=0.99 fps=200.1 | repair 353/413 | ETA~0.69h
+DONE scale_front_1 ordinal=11838 frames=3228 sec=13.11 fps=246.3 | repair 354/413 | ETA~0.69h
+DONE scale_front_1 ordinal=11896 frames=3512 sec=12.68 fps=277.0 | repair 355/413 | ETA~0.68h
+DONE scale_front_1 ordinal=12000 frames=727 sec=3.06 fps=237.7 | repair 356/413 | ETA~0.68h
+DONE scale_front_1 ordinal=12066 frames=1844 sec=7.51 fps=245.6 | repair 357/413 | ETA~0.68h
+DONE scale_front_1 ordinal=12094 frames=1050 sec=4.34 fps=242.0 | repair 358/413 | ETA~0.68h
+DONE scale_front_1 ordinal=12127 frames=806 sec=3.42 fps=235.4 | repair 359/413 | ETA~0.67h
+DONE scale_front_1 ordinal=12484 frames=624 sec=3.09 fps=201.7 | repair 360/413 | ETA~0.67h
+DONE scale_front_1 ordinal=12630 frames=1769 sec=7.66 fps=230.9 | repair 361/413 | ETA~0.67h
+DONE scale_front_1 ordinal=12885 frames=1099 sec=4.52 fps=243.3 | repair 362/413 | ETA~0.67h
+DONE scale_front_1 ordinal=12954 frames=749 sec=3.10 fps=241.6 | repair 363/413 | ETA~0.67h
+DONE scale_front_1 ordinal=13049 frames=253 sec=1.08 fps=234.9 | repair 364/413 | ETA~0.67h
+DONE scale_front_1 ordinal=13188 frames=14730 sec=59.20 fps=248.8 | repair 365/413 | ETA~0.64h
+DONE scale_front_1 ordinal=13247 frames=833 sec=3.52 fps=236.8 | repair 366/413 | ETA~0.64h
+DONE scale_front_1 ordinal=13416 frames=267 sec=1.23 fps=217.1 | repair 367/413 | ETA~0.64h
+DONE scale_front_1 ordinal=13485 frames=562 sec=2.61 fps=215.1 | repair 368/413 | ETA~0.64h
+DONE scale_front_1 ordinal=13487 frames=2030 sec=8.59 fps=236.2 | repair 369/413 | ETA~0.64h
+DONE scale_front_1 ordinal=13542 frames=551 sec=2.33 fps=236.0 | repair 370/413 | ETA~0.64h
+DONE scale_front_1 ordinal=13555 frames=2155 sec=8.72 fps=247.1 | repair 371/413 | ETA~0.64h
+DONE scale_front_1 ordinal=13565 frames=643 sec=2.73 fps=235.2 | repair 372/413 | ETA~0.63h
+DONE scale_front_1 ordinal=13636 frames=765 sec=3.16 fps=242.4 | repair 373/413 | ETA~0.63h
+DONE scale_front_1 ordinal=13639 frames=9779 sec=39.30 fps=248.8 | repair 374/413 | ETA~0.62h
+DONE scale_front_1 ordinal=13746 frames=2689 sec=10.98 fps=244.9 | repair 375/413 | ETA~0.62h
+DONE scale_front_1 ordinal=13749 frames=721 sec=3.10 fps=232.8 | repair 376/413 | ETA~0.61h
+DONE scale_front_1 ordinal=13789 frames=1019 sec=4.19 fps=243.1 | repair 377/413 | ETA~0.61h
+DONE scale_front_1 ordinal=13814 frames=2752 sec=11.14 fps=247.1 | repair 378/413 | ETA~0.61h
+DONE scale_front_1 ordinal=13815 frames=2441 sec=9.91 fps=246.3 | repair 379/413 | ETA~0.61h
+DONE scale_front_1 ordinal=13824 frames=1221 sec=5.16 fps=236.8 | repair 380/413 | ETA~0.60h
+DONE scale_front_1 ordinal=13853 frames=1158 sec=4.91 fps=235.7 | repair 381/413 | ETA~0.60h
+DONE scale_front_1 ordinal=13914 frames=249 sec=1.14 fps=218.6 | repair 382/413 | ETA~0.60h
+DONE scale_front_1 ordinal=13927 frames=333 sec=1.47 fps=226.7 | repair 383/413 | ETA~0.60h
+DONE scale_front_1 ordinal=13945 frames=581 sec=2.53 fps=229.7 | repair 384/413 | ETA~0.60h
+DONE scale_front_1 ordinal=13971 frames=401 sec=1.78 fps=225.5 | repair 385/413 | ETA~0.60h
+DONE scale_front_1 ordinal=13995 frames=1303 sec=5.38 fps=242.4 | repair 386/413 | ETA~0.60h
+[scale_front_1] chunk 2/2 episodes=27
+DONE scale_front_1 ordinal=14089 frames=488 sec=2.35 fps=207.3 | repair 387/413 | ETA~0.60h
+DONE scale_front_1 ordinal=14099 frames=467 sec=1.98 fps=236.2 | repair 388/413 | ETA~0.60h
+DONE scale_front_1 ordinal=14119 frames=178 sec=0.83 fps=215.7 | repair 389/413 | ETA~0.60h
+DONE scale_front_1 ordinal=14150 frames=8124 sec=33.31 fps=243.9 | repair 390/413 | ETA~0.59h
+DONE scale_front_1 ordinal=14476 frames=1464 sec=6.01 fps=243.4 | repair 391/413 | ETA~0.59h
+DONE scale_front_1 ordinal=14660 frames=416 sec=1.79 fps=232.4 | repair 392/413 | ETA~0.59h
+DONE scale_front_1 ordinal=14845 frames=183 sec=0.76 fps=239.5 | repair 393/413 | ETA~0.59h
+DONE scale_front_1 ordinal=15023 frames=1741 sec=7.30 fps=238.6 | repair 394/413 | ETA~0.58h
+DONE scale_front_1 ordinal=15024 frames=1413 sec=5.77 fps=245.0 | repair 395/413 | ETA~0.58h
+DONE scale_front_1 ordinal=15038 frames=184 sec=0.82 fps=225.7 | repair 396/413 | ETA~0.58h
+DONE scale_front_1 ordinal=15323 frames=302 sec=1.31 fps=230.7 | repair 397/413 | ETA~0.58h
+DONE scale_front_1 ordinal=15459 frames=449 sec=1.93 fps=232.2 | repair 398/413 | ETA~0.58h
+DONE scale_front_1 ordinal=15503 frames=378 sec=1.60 fps=236.6 | repair 399/413 | ETA~0.58h
+DONE scale_front_1 ordinal=15568 frames=2059 sec=8.46 fps=243.3 | repair 400/413 | ETA~0.58h
+DONE scale_front_1 ordinal=15756 frames=694 sec=2.88 fps=241.4 | repair 401/413 | ETA~0.58h
+DONE scale_front_1 ordinal=15765 frames=214 sec=0.98 fps=218.2 | repair 402/413 | ETA~0.58h
+DONE scale_front_1 ordinal=15816 frames=236 sec=1.03 fps=228.5 | repair 403/413 | ETA~0.58h
+DONE scale_front_1 ordinal=15827 frames=176 sec=0.78 fps=225.5 | repair 404/413 | ETA~0.58h
+DONE scale_front_1 ordinal=15872 frames=422 sec=1.82 fps=232.4 | repair 405/413 | ETA~0.58h
+DONE scale_front_1 ordinal=15957 frames=212 sec=0.94 fps=225.5 | repair 406/413 | ETA~0.57h
+DONE scale_front_1 ordinal=16021 frames=292 sec=1.28 fps=227.5 | repair 407/413 | ETA~0.57h
+DONE scale_front_1 ordinal=16075 frames=186 sec=0.76 fps=243.3 | repair 408/413 | ETA~0.57h
+DONE scale_front_1 ordinal=16123 frames=162 sec=0.77 fps=209.2 | repair 409/413 | ETA~0.57h
+DONE scale_front_1 ordinal=16163 frames=231 sec=0.95 fps=242.8 | repair 410/413 | ETA~0.57h
+DONE scale_front_1 ordinal=16167 frames=4198 sec=14.78 fps=284.0 | repair 411/413 | ETA~0.57h
+DONE scale_front_1 ordinal=16178 frames=331 sec=1.37 fps=241.5 | repair 412/413 | ETA~0.57h
+DONE scale_front_1 ordinal=16181 frames=197 sec=0.97 fps=204.1 | repair 413/413 | ETA~0.57h
+
+====================================================================================================
+MISSING VQGAN REPAIR COMPLETE
+====================================================================================================
+{
+  "status": "PASS",
+  "target_episodes": 413,
+  "target_frames": 771485,
+  "episodes_written_this_run": 182,
+  "episodes_skipped_existing_repair": 231,
+  "frames_written_this_run": 315710,
+  "elapsed_sec": 1413.5790902610001,
+  "output_root": "/mnt/data/laixianxin/LAPA/data/egoverse_vqgan_tokens_repair_missing_8gpu/rank04",
+  "missing_manifest": "/mnt/data/laixianxin/LAPA/data/egoverse_vqgan_tokens/repair_inventory/shards8/missing_rank04.jsonl",
+  "vision_tokens_per_frame": 256,
+  "vq_vocab_size": 8192
+}

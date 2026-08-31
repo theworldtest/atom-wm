@@ -1,0 +1,1314 @@
+====================================================================================================
+EgoVerse -> LAPA CANONICAL JSONL BUILDER
+workers       = 32
+episode batch = 500
+manifest      = /mnt/data/laixianxin/LAPA/data/egoverse_vqgan_tokens/canonical_vqgan_manifest.jsonl
+laq           = /mnt/data/laixianxin/LAPA/data/egoverse_laq_labels/latent_action_egoverse_train.jsonl
+output        = /mnt/data/laixianxin/LAPA/data/latent_action_pretraining_egoverse.jsonl
+====================================================================================================
+episodes = 60246
+expected VQ frames = 116584930
+loaded episodes: 500 / 60246 frames: 2264868
+loaded episodes: 1000 / 60246 frames: 4229813
+loaded episodes: 1500 / 60246 frames: 4786235
+loaded episodes: 2000 / 60246 frames: 5358738
+loaded episodes: 2500 / 60246 frames: 5922009
+loaded episodes: 3000 / 60246 frames: 6461042
+loaded episodes: 3500 / 60246 frames: 7029396
+loaded episodes: 4000 / 60246 frames: 8271104
+loaded episodes: 4500 / 60246 frames: 10042702
+loaded episodes: 5000 / 60246 frames: 11106895
+loaded episodes: 5500 / 60246 frames: 12159831
+loaded episodes: 6000 / 60246 frames: 13196872
+loaded episodes: 6500 / 60246 frames: 14274353
+loaded episodes: 7000 / 60246 frames: 15331165
+loaded episodes: 7500 / 60246 frames: 16417293
+loaded episodes: 8000 / 60246 frames: 17533468
+loaded episodes: 8500 / 60246 frames: 18582818
+loaded episodes: 9000 / 60246 frames: 19704607
+loaded episodes: 9500 / 60246 frames: 20794020
+loaded episodes: 10000 / 60246 frames: 21906270
+loaded episodes: 10500 / 60246 frames: 22969756
+loaded episodes: 11000 / 60246 frames: 24036921
+loaded episodes: 11500 / 60246 frames: 25119867
+loaded episodes: 12000 / 60246 frames: 26187486
+loaded episodes: 12500 / 60246 frames: 27274082
+loaded episodes: 13000 / 60246 frames: 28324544
+loaded episodes: 13500 / 60246 frames: 29422588
+loaded episodes: 14000 / 60246 frames: 30508227
+loaded episodes: 14500 / 60246 frames: 31542094
+loaded episodes: 15000 / 60246 frames: 32602984
+loaded episodes: 15500 / 60246 frames: 33649481
+loaded episodes: 16000 / 60246 frames: 34697924
+loaded episodes: 16500 / 60246 frames: 35742288
+loaded episodes: 17000 / 60246 frames: 36813260
+loaded episodes: 17500 / 60246 frames: 37892697
+loaded episodes: 18000 / 60246 frames: 38960624
+loaded episodes: 18500 / 60246 frames: 40030189
+loaded episodes: 19000 / 60246 frames: 41064645
+loaded episodes: 19500 / 60246 frames: 42130155
+loaded episodes: 20000 / 60246 frames: 43192315
+loaded episodes: 20500 / 60246 frames: 44210818
+loaded episodes: 21000 / 60246 frames: 45305214
+loaded episodes: 21500 / 60246 frames: 46374858
+loaded episodes: 22000 / 60246 frames: 47439620
+loaded episodes: 22500 / 60246 frames: 48528849
+loaded episodes: 23000 / 60246 frames: 49621125
+loaded episodes: 23500 / 60246 frames: 50698399
+loaded episodes: 24000 / 60246 frames: 51816067
+loaded episodes: 24500 / 60246 frames: 52911367
+loaded episodes: 25000 / 60246 frames: 54027182
+loaded episodes: 25500 / 60246 frames: 55087092
+loaded episodes: 26000 / 60246 frames: 56166143
+loaded episodes: 26500 / 60246 frames: 57214540
+loaded episodes: 27000 / 60246 frames: 58274245
+loaded episodes: 27500 / 60246 frames: 59362798
+loaded episodes: 28000 / 60246 frames: 60430129
+loaded episodes: 28500 / 60246 frames: 61506291
+loaded episodes: 29000 / 60246 frames: 62604687
+loaded episodes: 29500 / 60246 frames: 63673764
+loaded episodes: 30000 / 60246 frames: 64733970
+loaded episodes: 30500 / 60246 frames: 65813784
+loaded episodes: 31000 / 60246 frames: 66894110
+loaded episodes: 31500 / 60246 frames: 67948763
+loaded episodes: 32000 / 60246 frames: 69023705
+loaded episodes: 32500 / 60246 frames: 70072544
+loaded episodes: 33000 / 60246 frames: 71132750
+loaded episodes: 33500 / 60246 frames: 72222111
+loaded episodes: 34000 / 60246 frames: 73297203
+loaded episodes: 34500 / 60246 frames: 74393836
+loaded episodes: 35000 / 60246 frames: 75446681
+loaded episodes: 35500 / 60246 frames: 76513873
+loaded episodes: 36000 / 60246 frames: 77576515
+loaded episodes: 36500 / 60246 frames: 78677088
+loaded episodes: 37000 / 60246 frames: 79764089
+loaded episodes: 37500 / 60246 frames: 80842122
+loaded episodes: 38000 / 60246 frames: 81934200
+loaded episodes: 38500 / 60246 frames: 82989036
+loaded episodes: 39000 / 60246 frames: 84107808
+loaded episodes: 39500 / 60246 frames: 85152326
+loaded episodes: 40000 / 60246 frames: 86216032
+loaded episodes: 40500 / 60246 frames: 87286451
+loaded episodes: 41000 / 60246 frames: 88344961
+loaded episodes: 41500 / 60246 frames: 89453434
+loaded episodes: 42000 / 60246 frames: 90485868
+loaded episodes: 42500 / 60246 frames: 91551035
+loaded episodes: 43000 / 60246 frames: 92637695
+loaded episodes: 43500 / 60246 frames: 93699033
+loaded episodes: 44000 / 60246 frames: 94740906
+loaded episodes: 44500 / 60246 frames: 95436558
+loaded episodes: 45000 / 60246 frames: 96068898
+loaded episodes: 45500 / 60246 frames: 96678793
+loaded episodes: 46000 / 60246 frames: 97349260
+loaded episodes: 46500 / 60246 frames: 97988980
+loaded episodes: 47000 / 60246 frames: 98600153
+loaded episodes: 47500 / 60246 frames: 99294783
+loaded episodes: 48000 / 60246 frames: 99943139
+loaded episodes: 48500 / 60246 frames: 100553891
+loaded episodes: 49000 / 60246 frames: 101300699
+loaded episodes: 49500 / 60246 frames: 101972689
+loaded episodes: 50000 / 60246 frames: 102604209
+loaded episodes: 50500 / 60246 frames: 103371569
+loaded episodes: 51000 / 60246 frames: 104058887
+loaded episodes: 51500 / 60246 frames: 104740338
+loaded episodes: 52000 / 60246 frames: 105444487
+loaded episodes: 52500 / 60246 frames: 106101213
+loaded episodes: 53000 / 60246 frames: 106807310
+loaded episodes: 53500 / 60246 frames: 107558108
+loaded episodes: 54000 / 60246 frames: 108128508
+loaded episodes: 54500 / 60246 frames: 108769499
+loaded episodes: 55000 / 60246 frames: 109452068
+loaded episodes: 55500 / 60246 frames: 110072903
+loaded episodes: 56000 / 60246 frames: 110760603
+loaded episodes: 56500 / 60246 frames: 111470498
+loaded episodes: 57000 / 60246 frames: 112244081
+loaded episodes: 57500 / 60246 frames: 112919674
+loaded episodes: 58000 / 60246 frames: 113676739
+loaded episodes: 58500 / 60246 frames: 114280724
+loaded episodes: 59000 / 60246 frames: 114870999
+loaded episodes: 59500 / 60246 frames: 115568293
+loaded episodes: 60000 / 60246 frames: 116221703
+loaded episodes: 60246 / 60246 frames: 116584930
+
+VQ loaded frames = 116584930
+expected frames  = 116584930
+VQ CANONICAL LOAD CHECK: PASS
+written 100000 miss 0
+written 200000 miss 0
+written 300000 miss 0
+written 400000 miss 0
+written 500000 miss 0
+written 600000 miss 0
+written 700000 miss 0
+written 800000 miss 0
+written 900000 miss 0
+written 1000000 miss 0
+written 1100000 miss 0
+written 1200000 miss 0
+written 1300000 miss 0
+written 1400000 miss 0
+written 1500000 miss 0
+written 1600000 miss 0
+written 1700000 miss 0
+written 1800000 miss 0
+written 1900000 miss 0
+written 2000000 miss 0
+written 2100000 miss 0
+written 2200000 miss 0
+written 2300000 miss 0
+written 2400000 miss 0
+written 2500000 miss 0
+written 2600000 miss 0
+written 2700000 miss 0
+written 2800000 miss 0
+written 2900000 miss 0
+written 3000000 miss 0
+written 3100000 miss 0
+written 3200000 miss 0
+written 3300000 miss 0
+written 3400000 miss 0
+written 3500000 miss 0
+written 3600000 miss 0
+written 3700000 miss 0
+written 3800000 miss 0
+written 3900000 miss 0
+written 4000000 miss 0
+written 4100000 miss 0
+written 4200000 miss 0
+written 4300000 miss 0
+written 4400000 miss 0
+written 4500000 miss 0
+written 4600000 miss 0
+written 4700000 miss 0
+written 4800000 miss 0
+written 4900000 miss 0
+written 5000000 miss 0
+written 5100000 miss 0
+written 5200000 miss 0
+written 5300000 miss 0
+written 5400000 miss 0
+written 5500000 miss 0
+written 5600000 miss 0
+written 5700000 miss 0
+written 5800000 miss 0
+written 5900000 miss 0
+written 6000000 miss 0
+written 6100000 miss 0
+written 6200000 miss 0
+written 6300000 miss 0
+written 6400000 miss 0
+written 6500000 miss 0
+written 6600000 miss 0
+written 6700000 miss 0
+written 6800000 miss 0
+written 6900000 miss 0
+written 7000000 miss 0
+written 7100000 miss 0
+written 7200000 miss 0
+written 7300000 miss 0
+written 7400000 miss 0
+written 7500000 miss 0
+written 7600000 miss 0
+written 7700000 miss 0
+written 7800000 miss 0
+written 7900000 miss 0
+written 8000000 miss 0
+written 8100000 miss 0
+written 8200000 miss 0
+written 8300000 miss 0
+written 8400000 miss 0
+written 8500000 miss 0
+written 8600000 miss 0
+written 8700000 miss 0
+written 8800000 miss 0
+written 8900000 miss 0
+written 9000000 miss 0
+written 9100000 miss 0
+written 9200000 miss 0
+written 9300000 miss 0
+written 9400000 miss 0
+written 9500000 miss 0
+written 9600000 miss 0
+written 9700000 miss 0
+written 9800000 miss 0
+written 9900000 miss 0
+written 10000000 miss 0
+written 10100000 miss 0
+written 10200000 miss 0
+written 10300000 miss 0
+written 10400000 miss 0
+written 10500000 miss 0
+written 10600000 miss 0
+written 10700000 miss 0
+written 10800000 miss 0
+written 10900000 miss 0
+written 11000000 miss 0
+written 11100000 miss 0
+written 11200000 miss 0
+written 11300000 miss 0
+written 11400000 miss 0
+written 11500000 miss 0
+written 11600000 miss 0
+written 11700000 miss 0
+written 11800000 miss 0
+written 11900000 miss 0
+written 12000000 miss 0
+written 12100000 miss 0
+written 12200000 miss 0
+written 12300000 miss 0
+written 12400000 miss 0
+written 12500000 miss 0
+written 12600000 miss 0
+written 12700000 miss 0
+written 12800000 miss 0
+written 12900000 miss 0
+written 13000000 miss 0
+written 13100000 miss 0
+written 13200000 miss 0
+written 13300000 miss 0
+written 13400000 miss 0
+written 13500000 miss 0
+written 13600000 miss 0
+written 13700000 miss 0
+written 13800000 miss 0
+written 13900000 miss 0
+written 14000000 miss 0
+written 14100000 miss 0
+written 14200000 miss 0
+written 14300000 miss 0
+written 14400000 miss 0
+written 14500000 miss 0
+written 14600000 miss 0
+written 14700000 miss 0
+written 14800000 miss 0
+written 14900000 miss 0
+written 15000000 miss 0
+written 15100000 miss 0
+written 15200000 miss 0
+written 15300000 miss 0
+written 15400000 miss 0
+written 15500000 miss 0
+written 15600000 miss 0
+written 15700000 miss 0
+written 15800000 miss 0
+written 15900000 miss 0
+written 16000000 miss 0
+written 16100000 miss 0
+written 16200000 miss 0
+written 16300000 miss 0
+written 16400000 miss 0
+written 16500000 miss 0
+written 16600000 miss 0
+written 16700000 miss 0
+written 16800000 miss 0
+written 16900000 miss 0
+written 17000000 miss 0
+written 17100000 miss 0
+written 17200000 miss 0
+written 17300000 miss 0
+written 17400000 miss 0
+written 17500000 miss 0
+written 17600000 miss 0
+written 17700000 miss 0
+written 17800000 miss 0
+written 17900000 miss 0
+written 18000000 miss 0
+written 18100000 miss 0
+written 18200000 miss 0
+written 18300000 miss 0
+written 18400000 miss 0
+written 18500000 miss 0
+written 18600000 miss 0
+written 18700000 miss 0
+written 18800000 miss 0
+written 18900000 miss 0
+written 19000000 miss 0
+written 19100000 miss 0
+written 19200000 miss 0
+written 19300000 miss 0
+written 19400000 miss 0
+written 19500000 miss 0
+written 19600000 miss 0
+written 19700000 miss 0
+written 19800000 miss 0
+written 19900000 miss 0
+written 20000000 miss 0
+written 20100000 miss 0
+written 20200000 miss 0
+written 20300000 miss 0
+written 20400000 miss 0
+written 20500000 miss 0
+written 20600000 miss 0
+written 20700000 miss 0
+written 20800000 miss 0
+written 20900000 miss 0
+written 21000000 miss 0
+written 21100000 miss 0
+written 21200000 miss 0
+written 21300000 miss 0
+written 21400000 miss 0
+written 21500000 miss 0
+written 21600000 miss 0
+written 21700000 miss 0
+written 21800000 miss 0
+written 21900000 miss 0
+written 22000000 miss 0
+written 22100000 miss 0
+written 22200000 miss 0
+written 22300000 miss 0
+written 22400000 miss 0
+written 22500000 miss 0
+written 22600000 miss 0
+written 22700000 miss 0
+written 22800000 miss 0
+written 22900000 miss 0
+written 23000000 miss 0
+written 23100000 miss 0
+written 23200000 miss 0
+written 23300000 miss 0
+written 23400000 miss 0
+written 23500000 miss 0
+written 23600000 miss 0
+written 23700000 miss 0
+written 23800000 miss 0
+written 23900000 miss 0
+written 24000000 miss 0
+written 24100000 miss 0
+written 24200000 miss 0
+written 24300000 miss 0
+written 24400000 miss 0
+written 24500000 miss 0
+written 24600000 miss 0
+written 24700000 miss 0
+written 24800000 miss 0
+written 24900000 miss 0
+written 25000000 miss 0
+written 25100000 miss 0
+written 25200000 miss 0
+written 25300000 miss 0
+written 25400000 miss 0
+written 25500000 miss 0
+written 25600000 miss 0
+written 25700000 miss 0
+written 25800000 miss 0
+written 25900000 miss 0
+written 26000000 miss 0
+written 26100000 miss 0
+written 26200000 miss 0
+written 26300000 miss 0
+written 26400000 miss 0
+written 26500000 miss 0
+written 26600000 miss 0
+written 26700000 miss 0
+written 26800000 miss 0
+written 26900000 miss 0
+written 27000000 miss 0
+written 27100000 miss 0
+written 27200000 miss 0
+written 27300000 miss 0
+written 27400000 miss 0
+written 27500000 miss 0
+written 27600000 miss 0
+written 27700000 miss 0
+written 27800000 miss 0
+written 27900000 miss 0
+written 28000000 miss 0
+written 28100000 miss 0
+written 28200000 miss 0
+written 28300000 miss 0
+written 28400000 miss 0
+written 28500000 miss 0
+written 28600000 miss 0
+written 28700000 miss 0
+written 28800000 miss 0
+written 28900000 miss 0
+written 29000000 miss 0
+written 29100000 miss 0
+written 29200000 miss 0
+written 29300000 miss 0
+written 29400000 miss 0
+written 29500000 miss 0
+written 29600000 miss 0
+written 29700000 miss 0
+written 29800000 miss 0
+written 29900000 miss 0
+written 30000000 miss 0
+written 30100000 miss 0
+written 30200000 miss 0
+written 30300000 miss 0
+written 30400000 miss 0
+written 30500000 miss 0
+written 30600000 miss 0
+written 30700000 miss 0
+written 30800000 miss 0
+written 30900000 miss 0
+written 31000000 miss 0
+written 31100000 miss 0
+written 31200000 miss 0
+written 31300000 miss 0
+written 31400000 miss 0
+written 31500000 miss 0
+written 31600000 miss 0
+written 31700000 miss 0
+written 31800000 miss 0
+written 31900000 miss 0
+written 32000000 miss 0
+written 32100000 miss 0
+written 32200000 miss 0
+written 32300000 miss 0
+written 32400000 miss 0
+written 32500000 miss 0
+written 32600000 miss 0
+written 32700000 miss 0
+written 32800000 miss 0
+written 32900000 miss 0
+written 33000000 miss 0
+written 33100000 miss 0
+written 33200000 miss 0
+written 33300000 miss 0
+written 33400000 miss 0
+written 33500000 miss 0
+written 33600000 miss 0
+written 33700000 miss 0
+written 33800000 miss 0
+written 33900000 miss 0
+written 34000000 miss 0
+written 34100000 miss 0
+written 34200000 miss 0
+written 34300000 miss 0
+written 34400000 miss 0
+written 34500000 miss 0
+written 34600000 miss 0
+written 34700000 miss 0
+written 34800000 miss 0
+written 34900000 miss 0
+written 35000000 miss 0
+written 35100000 miss 0
+written 35200000 miss 0
+written 35300000 miss 0
+written 35400000 miss 0
+written 35500000 miss 0
+written 35600000 miss 0
+written 35700000 miss 0
+written 35800000 miss 0
+written 35900000 miss 0
+written 36000000 miss 0
+written 36100000 miss 0
+written 36200000 miss 0
+written 36300000 miss 0
+written 36400000 miss 0
+written 36500000 miss 0
+written 36600000 miss 0
+written 36700000 miss 0
+written 36800000 miss 0
+written 36900000 miss 0
+written 37000000 miss 0
+written 37100000 miss 0
+written 37200000 miss 0
+written 37300000 miss 0
+written 37400000 miss 0
+written 37500000 miss 0
+written 37600000 miss 0
+written 37700000 miss 0
+written 37800000 miss 0
+written 37900000 miss 0
+written 38000000 miss 0
+written 38100000 miss 0
+written 38200000 miss 0
+written 38300000 miss 0
+written 38400000 miss 0
+written 38500000 miss 0
+written 38600000 miss 0
+written 38700000 miss 0
+written 38800000 miss 0
+written 38900000 miss 0
+written 39000000 miss 0
+written 39100000 miss 0
+written 39200000 miss 0
+written 39300000 miss 0
+written 39400000 miss 0
+written 39500000 miss 0
+written 39600000 miss 0
+written 39700000 miss 0
+written 39800000 miss 0
+written 39900000 miss 0
+written 40000000 miss 0
+written 40100000 miss 0
+written 40200000 miss 0
+written 40300000 miss 0
+written 40400000 miss 0
+written 40500000 miss 0
+written 40600000 miss 0
+written 40700000 miss 0
+written 40800000 miss 0
+written 40900000 miss 0
+written 41000000 miss 0
+written 41100000 miss 0
+written 41200000 miss 0
+written 41300000 miss 0
+written 41400000 miss 0
+written 41500000 miss 0
+written 41600000 miss 0
+written 41700000 miss 0
+written 41800000 miss 0
+written 41900000 miss 0
+written 42000000 miss 0
+written 42100000 miss 0
+written 42200000 miss 0
+written 42300000 miss 0
+written 42400000 miss 0
+written 42500000 miss 0
+written 42600000 miss 0
+written 42700000 miss 0
+written 42800000 miss 0
+written 42900000 miss 0
+written 43000000 miss 0
+written 43100000 miss 0
+written 43200000 miss 0
+written 43300000 miss 0
+written 43400000 miss 0
+written 43500000 miss 0
+written 43600000 miss 0
+written 43700000 miss 0
+written 43800000 miss 0
+written 43900000 miss 0
+written 44000000 miss 0
+written 44100000 miss 0
+written 44200000 miss 0
+written 44300000 miss 0
+written 44400000 miss 0
+written 44500000 miss 0
+written 44600000 miss 0
+written 44700000 miss 0
+written 44800000 miss 0
+written 44900000 miss 0
+written 45000000 miss 0
+written 45100000 miss 0
+written 45200000 miss 0
+written 45300000 miss 0
+written 45400000 miss 0
+written 45500000 miss 0
+written 45600000 miss 0
+written 45700000 miss 0
+written 45800000 miss 0
+written 45900000 miss 0
+written 46000000 miss 0
+written 46100000 miss 0
+written 46200000 miss 0
+written 46300000 miss 0
+written 46400000 miss 0
+written 46500000 miss 0
+written 46600000 miss 0
+written 46700000 miss 0
+written 46800000 miss 0
+written 46900000 miss 0
+written 47000000 miss 0
+written 47100000 miss 0
+written 47200000 miss 0
+written 47300000 miss 0
+written 47400000 miss 0
+written 47500000 miss 0
+written 47600000 miss 0
+written 47700000 miss 0
+written 47800000 miss 0
+written 47900000 miss 0
+written 48000000 miss 0
+written 48100000 miss 0
+written 48200000 miss 0
+written 48300000 miss 0
+written 48400000 miss 0
+written 48500000 miss 0
+written 48600000 miss 0
+written 48700000 miss 0
+written 48800000 miss 0
+written 48900000 miss 0
+written 49000000 miss 0
+written 49100000 miss 0
+written 49200000 miss 0
+written 49300000 miss 0
+written 49400000 miss 0
+written 49500000 miss 0
+written 49600000 miss 0
+written 49700000 miss 0
+written 49800000 miss 0
+written 49900000 miss 0
+written 50000000 miss 0
+written 50100000 miss 0
+written 50200000 miss 0
+written 50300000 miss 0
+written 50400000 miss 0
+written 50500000 miss 0
+written 50600000 miss 0
+written 50700000 miss 0
+written 50800000 miss 0
+written 50900000 miss 0
+written 51000000 miss 0
+written 51100000 miss 0
+written 51200000 miss 0
+written 51300000 miss 0
+written 51400000 miss 0
+written 51500000 miss 0
+written 51600000 miss 0
+written 51700000 miss 0
+written 51800000 miss 0
+written 51900000 miss 0
+written 52000000 miss 0
+written 52100000 miss 0
+written 52200000 miss 0
+written 52300000 miss 0
+written 52400000 miss 0
+written 52500000 miss 0
+written 52600000 miss 0
+written 52700000 miss 0
+written 52800000 miss 0
+written 52900000 miss 0
+written 53000000 miss 0
+written 53100000 miss 0
+written 53200000 miss 0
+written 53300000 miss 0
+written 53400000 miss 0
+written 53500000 miss 0
+written 53600000 miss 0
+written 53700000 miss 0
+written 53800000 miss 0
+written 53900000 miss 0
+written 54000000 miss 0
+written 54100000 miss 0
+written 54200000 miss 0
+written 54300000 miss 0
+written 54400000 miss 0
+written 54500000 miss 0
+written 54600000 miss 0
+written 54700000 miss 0
+written 54800000 miss 0
+written 54900000 miss 0
+written 55000000 miss 0
+written 55100000 miss 0
+written 55200000 miss 0
+written 55300000 miss 0
+written 55400000 miss 0
+written 55500000 miss 0
+written 55600000 miss 0
+written 55700000 miss 0
+written 55800000 miss 0
+written 55900000 miss 0
+written 56000000 miss 0
+written 56100000 miss 0
+written 56200000 miss 0
+written 56300000 miss 0
+written 56400000 miss 0
+written 56500000 miss 0
+written 56600000 miss 0
+written 56700000 miss 0
+written 56800000 miss 0
+written 56900000 miss 0
+written 57000000 miss 0
+written 57100000 miss 0
+written 57200000 miss 0
+written 57300000 miss 0
+written 57400000 miss 0
+written 57500000 miss 0
+written 57600000 miss 0
+written 57700000 miss 0
+written 57800000 miss 0
+written 57900000 miss 0
+written 58000000 miss 0
+written 58100000 miss 0
+written 58200000 miss 0
+written 58300000 miss 0
+written 58400000 miss 0
+written 58500000 miss 0
+written 58600000 miss 0
+written 58700000 miss 0
+written 58800000 miss 0
+written 58900000 miss 0
+written 59000000 miss 0
+written 59100000 miss 0
+written 59200000 miss 0
+written 59300000 miss 0
+written 59400000 miss 0
+written 59500000 miss 0
+written 59600000 miss 0
+written 59700000 miss 0
+written 59800000 miss 0
+written 59900000 miss 0
+written 60000000 miss 0
+written 60100000 miss 0
+written 60200000 miss 0
+written 60300000 miss 0
+written 60400000 miss 0
+written 60500000 miss 0
+written 60600000 miss 0
+written 60700000 miss 0
+written 60800000 miss 0
+written 60900000 miss 0
+written 61000000 miss 0
+written 61100000 miss 0
+written 61200000 miss 0
+written 61300000 miss 0
+written 61400000 miss 0
+written 61500000 miss 0
+written 61600000 miss 0
+written 61700000 miss 0
+written 61800000 miss 0
+written 61900000 miss 0
+written 62000000 miss 0
+written 62100000 miss 0
+written 62200000 miss 0
+written 62300000 miss 0
+written 62400000 miss 0
+written 62500000 miss 0
+written 62600000 miss 0
+written 62700000 miss 0
+written 62800000 miss 0
+written 62900000 miss 0
+written 63000000 miss 0
+written 63100000 miss 0
+written 63200000 miss 0
+written 63300000 miss 0
+written 63400000 miss 0
+written 63500000 miss 0
+written 63600000 miss 0
+written 63700000 miss 0
+written 63800000 miss 0
+written 63900000 miss 0
+written 64000000 miss 0
+written 64100000 miss 0
+written 64200000 miss 0
+written 64300000 miss 0
+written 64400000 miss 0
+written 64500000 miss 0
+written 64600000 miss 0
+written 64700000 miss 0
+written 64800000 miss 0
+written 64900000 miss 0
+written 65000000 miss 0
+written 65100000 miss 0
+written 65200000 miss 0
+written 65300000 miss 0
+written 65400000 miss 0
+written 65500000 miss 0
+written 65600000 miss 0
+written 65700000 miss 0
+written 65800000 miss 0
+written 65900000 miss 0
+written 66000000 miss 0
+written 66100000 miss 0
+written 66200000 miss 0
+written 66300000 miss 0
+written 66400000 miss 0
+written 66500000 miss 0
+written 66600000 miss 0
+written 66700000 miss 0
+written 66800000 miss 0
+written 66900000 miss 0
+written 67000000 miss 0
+written 67100000 miss 0
+written 67200000 miss 0
+written 67300000 miss 0
+written 67400000 miss 0
+written 67500000 miss 0
+written 67600000 miss 0
+written 67700000 miss 0
+written 67800000 miss 0
+written 67900000 miss 0
+written 68000000 miss 0
+written 68100000 miss 0
+written 68200000 miss 0
+written 68300000 miss 0
+written 68400000 miss 0
+written 68500000 miss 0
+written 68600000 miss 0
+written 68700000 miss 0
+written 68800000 miss 0
+written 68900000 miss 0
+written 69000000 miss 0
+written 69100000 miss 0
+written 69200000 miss 0
+written 69300000 miss 0
+written 69400000 miss 0
+written 69500000 miss 0
+written 69600000 miss 0
+written 69700000 miss 0
+written 69800000 miss 0
+written 69900000 miss 0
+written 70000000 miss 0
+written 70100000 miss 0
+written 70200000 miss 0
+written 70300000 miss 0
+written 70400000 miss 0
+written 70500000 miss 0
+written 70600000 miss 0
+written 70700000 miss 0
+written 70800000 miss 0
+written 70900000 miss 0
+written 71000000 miss 0
+written 71100000 miss 0
+written 71200000 miss 0
+written 71300000 miss 0
+written 71400000 miss 0
+written 71500000 miss 0
+written 71600000 miss 0
+written 71700000 miss 0
+written 71800000 miss 0
+written 71900000 miss 0
+written 72000000 miss 0
+written 72100000 miss 0
+written 72200000 miss 0
+written 72300000 miss 0
+written 72400000 miss 0
+written 72500000 miss 0
+written 72600000 miss 0
+written 72700000 miss 0
+written 72800000 miss 0
+written 72900000 miss 0
+written 73000000 miss 0
+written 73100000 miss 0
+written 73200000 miss 0
+written 73300000 miss 0
+written 73400000 miss 0
+written 73500000 miss 0
+written 73600000 miss 0
+written 73700000 miss 0
+written 73800000 miss 0
+written 73900000 miss 0
+written 74000000 miss 0
+written 74100000 miss 0
+written 74200000 miss 0
+written 74300000 miss 0
+written 74400000 miss 0
+written 74500000 miss 0
+written 74600000 miss 0
+written 74700000 miss 0
+written 74800000 miss 0
+written 74900000 miss 0
+written 75000000 miss 0
+written 75100000 miss 0
+written 75200000 miss 0
+written 75300000 miss 0
+written 75400000 miss 0
+written 75500000 miss 0
+written 75600000 miss 0
+written 75700000 miss 0
+written 75800000 miss 0
+written 75900000 miss 0
+written 76000000 miss 0
+written 76100000 miss 0
+written 76200000 miss 0
+written 76300000 miss 0
+written 76400000 miss 0
+written 76500000 miss 0
+written 76600000 miss 0
+written 76700000 miss 0
+written 76800000 miss 0
+written 76900000 miss 0
+written 77000000 miss 0
+written 77100000 miss 0
+written 77200000 miss 0
+written 77300000 miss 0
+written 77400000 miss 0
+written 77500000 miss 0
+written 77600000 miss 0
+written 77700000 miss 0
+written 77800000 miss 0
+written 77900000 miss 0
+written 78000000 miss 0
+written 78100000 miss 0
+written 78200000 miss 0
+written 78300000 miss 0
+written 78400000 miss 0
+written 78500000 miss 0
+written 78600000 miss 0
+written 78700000 miss 0
+written 78800000 miss 0
+written 78900000 miss 0
+written 79000000 miss 0
+written 79100000 miss 0
+written 79200000 miss 0
+written 79300000 miss 0
+written 79400000 miss 0
+written 79500000 miss 0
+written 79600000 miss 0
+written 79700000 miss 0
+written 79800000 miss 0
+written 79900000 miss 0
+written 80000000 miss 0
+written 80100000 miss 0
+written 80200000 miss 0
+written 80300000 miss 0
+written 80400000 miss 0
+written 80500000 miss 0
+written 80600000 miss 0
+written 80700000 miss 0
+written 80800000 miss 0
+written 80900000 miss 0
+written 81000000 miss 0
+written 81100000 miss 0
+written 81200000 miss 0
+written 81300000 miss 0
+written 81400000 miss 0
+written 81500000 miss 0
+written 81600000 miss 0
+written 81700000 miss 0
+written 81800000 miss 0
+written 81900000 miss 0
+written 82000000 miss 0
+written 82100000 miss 0
+written 82200000 miss 0
+written 82300000 miss 0
+written 82400000 miss 0
+written 82500000 miss 0
+written 82600000 miss 0
+written 82700000 miss 0
+written 82800000 miss 0
+written 82900000 miss 0
+written 83000000 miss 0
+written 83100000 miss 0
+written 83200000 miss 0
+written 83300000 miss 0
+written 83400000 miss 0
+written 83500000 miss 0
+written 83600000 miss 0
+written 83700000 miss 0
+written 83800000 miss 0
+written 83900000 miss 0
+written 84000000 miss 0
+written 84100000 miss 0
+written 84200000 miss 0
+written 84300000 miss 0
+written 84400000 miss 0
+written 84500000 miss 0
+written 84600000 miss 0
+written 84700000 miss 0
+written 84800000 miss 0
+written 84900000 miss 0
+written 85000000 miss 0
+written 85100000 miss 0
+written 85200000 miss 0
+written 85300000 miss 0
+written 85400000 miss 0
+written 85500000 miss 0
+written 85600000 miss 0
+written 85700000 miss 0
+written 85800000 miss 0
+written 85900000 miss 0
+written 86000000 miss 0
+written 86100000 miss 0
+written 86200000 miss 0
+written 86300000 miss 0
+written 86400000 miss 0
+written 86500000 miss 0
+written 86600000 miss 0
+written 86700000 miss 0
+written 86800000 miss 0
+written 86900000 miss 0
+written 87000000 miss 0
+written 87100000 miss 0
+written 87200000 miss 0
+written 87300000 miss 0
+written 87400000 miss 0
+written 87500000 miss 0
+written 87600000 miss 0
+written 87700000 miss 0
+written 87800000 miss 0
+written 87900000 miss 0
+written 88000000 miss 0
+written 88100000 miss 0
+written 88200000 miss 0
+written 88300000 miss 0
+written 88400000 miss 0
+written 88500000 miss 0
+written 88600000 miss 0
+written 88700000 miss 0
+written 88800000 miss 0
+written 88900000 miss 0
+written 89000000 miss 0
+written 89100000 miss 0
+written 89200000 miss 0
+written 89300000 miss 0
+written 89400000 miss 0
+written 89500000 miss 0
+written 89600000 miss 0
+written 89700000 miss 0
+written 89800000 miss 0
+written 89900000 miss 0
+written 90000000 miss 0
+written 90100000 miss 0
+written 90200000 miss 0
+written 90300000 miss 0
+written 90400000 miss 0
+written 90500000 miss 0
+written 90600000 miss 0
+written 90700000 miss 0
+written 90800000 miss 0
+written 90900000 miss 0
+written 91000000 miss 0
+written 91100000 miss 0
+written 91200000 miss 0
+written 91300000 miss 0
+written 91400000 miss 0
+written 91500000 miss 0
+written 91600000 miss 0
+written 91700000 miss 0
+written 91800000 miss 0
+written 91900000 miss 0
+written 92000000 miss 0
+written 92100000 miss 0
+written 92200000 miss 0
+written 92300000 miss 0
+written 92400000 miss 0
+written 92500000 miss 0
+written 92600000 miss 0
+written 92700000 miss 0
+written 92800000 miss 0
+written 92900000 miss 0
+written 93000000 miss 0
+written 93100000 miss 0
+written 93200000 miss 0
+written 93300000 miss 0
+written 93400000 miss 0
+written 93500000 miss 0
+written 93600000 miss 0
+written 93700000 miss 0
+written 93800000 miss 0
+written 93900000 miss 0
+written 94000000 miss 0
+written 94100000 miss 0
+written 94200000 miss 0
+written 94300000 miss 0
+written 94400000 miss 0
+written 94500000 miss 0
+written 94600000 miss 0
+written 94700000 miss 0
+written 94800000 miss 0
+written 94900000 miss 0
+written 95000000 miss 0
+written 95100000 miss 0
+written 95200000 miss 0
+written 95300000 miss 0
+written 95400000 miss 0
+written 95500000 miss 0
+written 95600000 miss 0
+written 95700000 miss 0
+written 95800000 miss 0
+written 95900000 miss 0
+written 96000000 miss 0
+written 96100000 miss 0
+written 96200000 miss 0
+written 96300000 miss 0
+written 96400000 miss 0
+written 96500000 miss 0
+written 96600000 miss 0
+written 96700000 miss 0
+written 96800000 miss 0
+written 96900000 miss 0
+written 97000000 miss 0
+written 97100000 miss 0
+written 97200000 miss 0
+written 97300000 miss 0
+written 97400000 miss 0
+written 97500000 miss 0
+written 97600000 miss 0
+written 97700000 miss 0
+written 97800000 miss 0
+written 97900000 miss 0
+written 98000000 miss 0
+written 98100000 miss 0
+written 98200000 miss 0
+written 98300000 miss 0
+written 98400000 miss 0
+written 98500000 miss 0
+written 98600000 miss 0
+written 98700000 miss 0
+written 98800000 miss 0
+written 98900000 miss 0
+written 99000000 miss 0
+written 99100000 miss 0
+written 99200000 miss 0
+written 99300000 miss 0
+written 99400000 miss 0
+written 99500000 miss 0
+written 99600000 miss 0
+written 99700000 miss 0
+written 99800000 miss 0
+written 99900000 miss 0
+written 100000000 miss 0
+written 100100000 miss 0
+written 100200000 miss 0
+written 100300000 miss 0
+written 100400000 miss 0
+written 100500000 miss 0
+written 100600000 miss 0
+written 100700000 miss 0
+written 100800000 miss 0
+written 100900000 miss 0
+written 101000000 miss 0
+written 101100000 miss 0
+written 101200000 miss 0
+written 101300000 miss 0
+written 101400000 miss 0
+written 101500000 miss 0
+written 101600000 miss 0
+written 101700000 miss 0
+written 101800000 miss 0
+written 101900000 miss 0
+written 102000000 miss 0
+written 102100000 miss 0
+written 102200000 miss 0
+written 102300000 miss 0
+written 102400000 miss 0
+written 102500000 miss 0
+written 102600000 miss 0
+written 102700000 miss 0
+written 102800000 miss 0
+written 102900000 miss 0
+written 103000000 miss 0
+written 103100000 miss 0
+written 103200000 miss 0
+written 103300000 miss 0
+written 103400000 miss 0
+written 103500000 miss 0
+written 103600000 miss 0
+written 103700000 miss 0
+written 103800000 miss 0
+written 103900000 miss 0
+written 104000000 miss 0
+written 104100000 miss 0
+written 104200000 miss 0
+written 104300000 miss 0
+written 104400000 miss 0
+written 104500000 miss 0
+written 104600000 miss 0
+written 104700000 miss 0
+written 104800000 miss 0
+written 104900000 miss 0
+written 105000000 miss 0
+written 105100000 miss 0
+written 105200000 miss 0
+written 105300000 miss 0
+written 105400000 miss 0
+written 105500000 miss 0
+written 105600000 miss 0
+written 105700000 miss 0
+written 105800000 miss 0
+written 105900000 miss 0
+written 106000000 miss 0
+written 106100000 miss 0
+written 106200000 miss 0
+written 106300000 miss 0
+written 106400000 miss 0
+written 106500000 miss 0
+written 106600000 miss 0
+written 106700000 miss 0
+written 106800000 miss 0
+written 106900000 miss 0
+written 107000000 miss 0
+written 107100000 miss 0
+written 107200000 miss 0
+written 107300000 miss 0
+written 107400000 miss 0
+written 107500000 miss 0
+written 107600000 miss 0
+written 107700000 miss 0
+written 107800000 miss 0
+written 107900000 miss 0
+written 108000000 miss 0
+written 108100000 miss 0
+written 108200000 miss 0
+written 108300000 miss 0
+written 108400000 miss 0
+written 108500000 miss 0
+written 108600000 miss 0
+written 108700000 miss 0
+written 108800000 miss 0
+written 108900000 miss 0
+written 109000000 miss 0
+written 109100000 miss 0
+written 109200000 miss 0
+written 109300000 miss 0
+written 109400000 miss 0
+written 109500000 miss 0
+written 109600000 miss 0
+written 109700000 miss 0
+written 109800000 miss 0
+written 109900000 miss 0
+written 110000000 miss 0
+written 110100000 miss 0
+written 110200000 miss 0
+written 110300000 miss 0
+written 110400000 miss 0
+written 110500000 miss 0
+written 110600000 miss 0
+written 110700000 miss 0
+written 110800000 miss 0
+written 110900000 miss 0
+written 111000000 miss 0
+written 111100000 miss 0
+written 111200000 miss 0
+written 111300000 miss 0
+written 111400000 miss 0
+written 111500000 miss 0
+written 111600000 miss 0
+written 111700000 miss 0
+written 111800000 miss 0
+written 111900000 miss 0
+written 112000000 miss 0
+written 112100000 miss 0
+written 112200000 miss 0
+written 112300000 miss 0
+written 112400000 miss 0
+written 112500000 miss 0
+written 112600000 miss 0
+written 112700000 miss 0
+written 112800000 miss 0
+written 112900000 miss 0
+written 113000000 miss 0
+written 113100000 miss 0
+written 113200000 miss 0
+written 113300000 miss 0
+written 113400000 miss 0
+written 113500000 miss 0
+written 113600000 miss 0
+written 113700000 miss 0
+written 113800000 miss 0
+written 113900000 miss 0
+written 114000000 miss 0
+written 114100000 miss 0
+written 114200000 miss 0
+written 114300000 miss 0
+written 114400000 miss 0
+written 114500000 miss 0
+written 114600000 miss 0
+written 114700000 miss 0
+written 114800000 miss 0
+written 114900000 miss 0
+written 115000000 miss 0
+written 115100000 miss 0
+written 115200000 miss 0
+written 115300000 miss 0
+written 115400000 miss 0
+written 115500000 miss 0
+written 115600000 miss 0
+written 115700000 miss 0
+written 115800000 miss 0
+written 115900000 miss 0
+written 116000000 miss 0
+written 116100000 miss 0
+written 116200000 miss 0
+written 116300000 miss 0
+written 116400000 miss 0
+written 116500000 miss 0
+
+====================================================================================================
+JOIN SUMMARY
+====================================================================================================
+LAQ rows seen = 116584930
+written       = 116584930
+miss          = 0
+
+========================================
+CANONICAL LAPA JSONL BUILD: PASS
+========================================
+samples = 116584930
+miss    = 0
+output  = /mnt/data/laixianxin/LAPA/data/latent_action_pretraining_egoverse.jsonl

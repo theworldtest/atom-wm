@@ -1,0 +1,258 @@
+====================================================================================================
+LAPA EGOVERSE JSONL BUILDER
+workers = 32
+====================================================================================================
+episodes = 60246
+loaded episodes: 500 / 60246 frames: 2218592
+loaded episodes: 1000 / 60246 frames: 4134091
+loaded episodes: 1500 / 60246 frames: 4690513
+loaded episodes: 2000 / 60246 frames: 5258330
+loaded episodes: 2500 / 60246 frames: 5805677
+loaded episodes: 3000 / 60246 frames: 6324731
+loaded episodes: 3500 / 60246 frames: 6881974
+loaded episodes: 4000 / 60246 frames: 8086736
+loaded episodes: 4500 / 60246 frames: 9807519
+loaded episodes: 5000 / 60246 frames: 10871712
+loaded episodes: 5500 / 60246 frames: 11924648
+loaded episodes: 6000 / 60246 frames: 12961689
+loaded episodes: 6500 / 60246 frames: 14039170
+loaded episodes: 7000 / 60246 frames: 15095982
+loaded episodes: 7500 / 60246 frames: 16182110
+loaded episodes: 8000 / 60246 frames: 17298285
+loaded episodes: 8500 / 60246 frames: 18347635
+loaded episodes: 9000 / 60246 frames: 19469424
+loaded episodes: 9500 / 60246 frames: 20558837
+loaded episodes: 10000 / 60246 frames: 21671087
+loaded episodes: 10500 / 60246 frames: 22734573
+loaded episodes: 11000 / 60246 frames: 23801738
+loaded episodes: 11500 / 60246 frames: 24884684
+loaded episodes: 12000 / 60246 frames: 25952303
+loaded episodes: 12500 / 60246 frames: 27038899
+loaded episodes: 13000 / 60246 frames: 28089361
+loaded episodes: 13500 / 60246 frames: 29187405
+loaded episodes: 14000 / 60246 frames: 30273044
+loaded episodes: 14500 / 60246 frames: 31306911
+loaded episodes: 15000 / 60246 frames: 32367801
+loaded episodes: 15500 / 60246 frames: 33414298
+loaded episodes: 16000 / 60246 frames: 34462741
+loaded episodes: 16500 / 60246 frames: 35507105
+loaded episodes: 17000 / 60246 frames: 36578077
+loaded episodes: 17500 / 60246 frames: 37657514
+loaded episodes: 18000 / 60246 frames: 38725441
+loaded episodes: 18500 / 60246 frames: 39795006
+loaded episodes: 19000 / 60246 frames: 40829462
+loaded episodes: 19500 / 60246 frames: 41894972
+loaded episodes: 20000 / 60246 frames: 42957132
+loaded episodes: 20500 / 60246 frames: 43975635
+loaded episodes: 21000 / 60246 frames: 45070031
+loaded episodes: 21500 / 60246 frames: 46139675
+loaded episodes: 22000 / 60246 frames: 47204437
+loaded episodes: 22500 / 60246 frames: 48293666
+loaded episodes: 23000 / 60246 frames: 49385942
+loaded episodes: 23500 / 60246 frames: 50463216
+loaded episodes: 24000 / 60246 frames: 51580884
+loaded episodes: 24500 / 60246 frames: 52676184
+loaded episodes: 25000 / 60246 frames: 53791999
+loaded episodes: 25500 / 60246 frames: 54851909
+loaded episodes: 26000 / 60246 frames: 55930960
+loaded episodes: 26500 / 60246 frames: 56979357
+loaded episodes: 27000 / 60246 frames: 58039062
+loaded episodes: 27500 / 60246 frames: 59057034
+loaded episodes: 28000 / 60246 frames: 60116433
+loaded episodes: 28500 / 60246 frames: 61187792
+loaded episodes: 29000 / 60246 frames: 62275835
+loaded episodes: 29500 / 60246 frames: 63340424
+loaded episodes: 30000 / 60246 frames: 64399189
+loaded episodes: 30500 / 60246 frames: 65476932
+loaded episodes: 31000 / 60246 frames: 66553344
+loaded episodes: 31500 / 60246 frames: 67603306
+loaded episodes: 32000 / 60246 frames: 68673473
+loaded episodes: 32500 / 60246 frames: 69717647
+loaded episodes: 33000 / 60246 frames: 70770087
+loaded episodes: 33500 / 60246 frames: 71851130
+loaded episodes: 34000 / 60246 frames: 72914600
+loaded episodes: 34500 / 60246 frames: 74007856
+loaded episodes: 35000 / 60246 frames: 75044828
+loaded episodes: 35500 / 60246 frames: 76079381
+loaded episodes: 36000 / 60246 frames: 77108486
+loaded episodes: 36500 / 60246 frames: 78147687
+loaded episodes: 37000 / 60246 frames: 79158318
+loaded episodes: 37500 / 60246 frames: 80166124
+loaded episodes: 38000 / 60246 frames: 81175006
+loaded episodes: 38500 / 60246 frames: 82148372
+loaded episodes: 39000 / 60246 frames: 83143735
+loaded episodes: 39500 / 60246 frames: 84172911
+loaded episodes: 40000 / 60246 frames: 85217855
+loaded episodes: 40500 / 60246 frames: 86260837
+loaded episodes: 41000 / 60246 frames: 87294422
+loaded episodes: 41500 / 60246 frames: 88363424
+loaded episodes: 42000 / 60246 frames: 89334793
+loaded episodes: 42500 / 60246 frames: 90341287
+loaded episodes: 43000 / 60246 frames: 91323094
+loaded episodes: 43500 / 60246 frames: 92297139
+loaded episodes: 44000 / 60246 frames: 93199077
+loaded episodes: 44500 / 60246 frames: 93892631
+loaded episodes: 45000 / 60246 frames: 94524971
+loaded episodes: 45500 / 60246 frames: 95134866
+loaded episodes: 46000 / 60246 frames: 95805333
+loaded episodes: 46500 / 60246 frames: 96445053
+loaded episodes: 47000 / 60246 frames: 97056226
+loaded episodes: 47500 / 60246 frames: 97750856
+loaded episodes: 48000 / 60246 frames: 98399212
+loaded episodes: 48500 / 60246 frames: 99007752
+loaded episodes: 49000 / 60246 frames: 99737914
+loaded episodes: 49500 / 60246 frames: 100379725
+loaded episodes: 50000 / 60246 frames: 100979444
+loaded episodes: 50500 / 60246 frames: 101731794
+loaded episodes: 51000 / 60246 frames: 102405076
+loaded episodes: 51500 / 60246 frames: 103061457
+loaded episodes: 52000 / 60246 frames: 103715042
+loaded episodes: 52500 / 60246 frames: 104356470
+loaded episodes: 53000 / 60246 frames: 105044765
+loaded episodes: 53500 / 60246 frames: 105776920
+loaded episodes: 54000 / 60246 frames: 106319967
+loaded episodes: 54500 / 60246 frames: 106941054
+loaded episodes: 55000 / 60246 frames: 107611031
+loaded episodes: 55500 / 60246 frames: 108218322
+loaded episodes: 56000 / 60246 frames: 108876233
+loaded episodes: 56500 / 60246 frames: 109576853
+loaded episodes: 57000 / 60246 frames: 110343057
+loaded episodes: 57500 / 60246 frames: 110995505
+loaded episodes: 58000 / 60246 frames: 111699149
+loaded episodes: 58500 / 60246 frames: 112291187
+loaded episodes: 59000 / 60246 frames: 112878222
+loaded episodes: 59500 / 60246 frames: 113568372
+loaded episodes: 60000 / 60246 frames: 114215349
+loaded episodes: 60246 / 60246 frames: 114572528
+VQ loaded frames= 114572528
+written 100000 miss 0
+written 200000 miss 0
+written 300000 miss 2480
+written 400000 miss 2480
+written 500000 miss 2480
+written 600000 miss 12567
+written 700000 miss 23200
+written 800000 miss 33294
+written 900000 miss 35416
+written 1000000 miss 35416
+written 1100000 miss 38264
+written 1200000 miss 44334
+written 1300000 miss 44334
+written 1400000 miss 44334
+written 1500000 miss 44334
+written 1600000 miss 47025
+written 1700000 miss 49684
+written 1800000 miss 49684
+written 1900000 miss 49684
+written 2000000 miss 59811
+written 2100000 miss 59811
+written 2200000 miss 59811
+written 2300000 miss 62218
+written 2400000 miss 62218
+written 2500000 miss 62218
+written 2600000 miss 75785
+written 2700000 miss 89580
+written 2800000 miss 103652
+written 2900000 miss 103652
+written 3000000 miss 103652
+written 3100000 miss 115080
+written 3200000 miss 122408
+written 3300000 miss 125469
+written 3400000 miss 131397
+written 3500000 miss 131397
+written 3600000 miss 138515
+written 3700000 miss 138515
+written 3800000 miss 138515
+written 3900000 miss 138515
+written 4000000 miss 141961
+written 4100000 miss 141961
+written 4200000 miss 141961
+written 4300000 miss 141961
+written 4400000 miss 141961
+written 4500000 miss 141961
+written 4600000 miss 141961
+written 4700000 miss 141961
+written 4800000 miss 143152
+written 4900000 miss 144299
+written 5000000 miss 145051
+written 5100000 miss 147091
+written 5200000 miss 151620
+written 5300000 miss 159124
+written 5400000 miss 162705
+written 5500000 miss 164064
+written 5600000 miss 166861
+written 5700000 miss 167527
+written 5800000 miss 170605
+written 5900000 miss 173341
+written 6000000 miss 175606
+written 6100000 miss 186771
+written 6200000 miss 193095
+written 6300000 miss 197920
+written 6400000 miss 198550
+written 6500000 miss 201052
+written 6600000 miss 205649
+written 6700000 miss 205649
+written 6800000 miss 222006
+written 6900000 miss 236197
+written 7000000 miss 236197
+written 7100000 miss 237842
+written 7200000 miss 239458
+written 7300000 miss 245426
+written 7400000 miss 245426
+written 7500000 miss 248889
+written 7600000 miss 250647
+written 7700000 miss 252594
+written 7800000 miss 260247
+written 7900000 miss 268636
+written 8000000 miss 268636
+written 8100000 miss 271680
+written 8200000 miss 271680
+written 8300000 miss 271680
+written 8400000 miss 279187
+written 8500000 miss 279187
+written 8600000 miss 294006
+written 8700000 miss 298504
+written 8800000 miss 303728
+written 8900000 miss 310398
+written 9000000 miss 310398
+written 9100000 miss 313682
+written 9200000 miss 332936
+written 9300000 miss 332936
+written 9400000 miss 340475
+written 9500000 miss 340475
+written 9600000 miss 343985
+written 9700000 miss 343985
+written 9800000 miss 343985
+written 9900000 miss 343985
+written 10000000 miss 343985
+written 10100000 miss 343985
+written 10200000 miss 343985
+written 10300000 miss 343985
+written 10400000 miss 343985
+written 10500000 miss 343985
+written 10600000 miss 343985
+written 10700000 miss 343985
+written 10800000 miss 343985
+written 10900000 miss 343985
+written 11000000 miss 343985
+written 11100000 miss 343985
+written 11200000 miss 343985
+written 11300000 miss 343985
+written 11400000 miss 343985
+written 11500000 miss 343985
+written 11600000 miss 343985
+written 11700000 miss 343985
+written 11800000 miss 343985
+written 11900000 miss 343985
+written 12000000 miss 343985
+written 12100000 miss 343985
+written 12200000 miss 343985
+written 12300000 miss 343985
+written 12400000 miss 343985
+written 12500000 miss 343985
+written 12600000 miss 343985
+written 12700000 miss 343985
+written 12800000 miss 343985
+written 12900000 miss 343985
+written 13000000 miss 343985
+written 13100000 miss 343985
